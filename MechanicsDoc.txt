@@ -1,0 +1,36 @@
+Main Combat:
+Enemies attack automatically, with obvious wind up. Player swings their weapon in the direction of the enemy's attack to deflect it.
+Each deflect wears down the enemy's guard. When the enemy's guard is down they become stunned for a while and more vulnerable to attacks.
+Once stun is over the enemy's guard goes back up.
+Attacks on an enemy with guard up do damage, but an almost insignificant amount.
+
+Blocking:
+Players have block. Players can block by letting an enemy hit their shield, instead of hitting the enemy's weapon back with their own.
+Players have a block stat, which determines how much damage they can block in any one fight.
+Blocking is essentially an easy to use, but limited panic option for fights.
+
+Attacking:
+Players attack by slashing the enemy with their sword in any direction.
+Attacking in specific directions in a specific order deals increased damage. These are called combos.
+
+Magic:
+Not necessary, but possible feature later in development.
+Players press a button to activate an equipped spell. Time slows and the player has to do a hand motion pertaining to the spell.
+Damage spells work regardless of the enemy's guard. Healing spells allow the player to recover mid-battle. 
+
+The Map:
+The player must make their way through a fortress until they slay the final boss at the end.
+
+Progression: 
+The player always gets some money after defeating enemies, and sometimes gets a choice of gear.
+Money can be used to buy gear or heal between fights.
+
+Bloodlines:
+Each death moves the player onto the next member of their bloodline. Nothing is carried over, and the player must navigate the map again.
+Enemies are respawned and randomized somewhat.
+
+Stats:
+Attack: Increases damage you do with your weapon
+Defense: Reduces incoming damage
+Block: Determines how much you can block
+Magic: Increases magic effectiveness (damage dealt or amount healed)
