@@ -2,9 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Unity.Labs.SuperScience
-{
-
     public class PlayerSword : MonoBehaviour
     {
         [SerializeField]
@@ -28,4 +25,3 @@ namespace Unity.Labs.SuperScience
             UnityEngine.Debug.Log(m_MotionData.Velocity.ToString());
         }
     }
-}

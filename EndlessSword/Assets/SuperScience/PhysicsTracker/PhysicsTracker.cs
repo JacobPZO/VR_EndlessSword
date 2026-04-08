@@ -1,8 +1,6 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Unity.Labs.SuperScience
-{
     /// <summary>
     /// Object that can estimate a smoothed velocity and acceleration (linear and angular)
     /// from discrete pose (position and rotation) values
@@ -322,4 +320,3 @@ namespace Unity.Labs.SuperScience
             m_Samples[m_CurrentSampleIndex] = new Sample();
         }
     }
-}
