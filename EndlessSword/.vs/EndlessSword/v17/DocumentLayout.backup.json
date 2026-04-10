@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pisioj\\Documents\\GitHub\\VR_EndlessSword\\EndlessSword\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EF882A8-545C-6545-F714-6386BC9D2A96}|Assembly-CSharp.csproj|c:\\users\\pisioj\\documents\\github\\vr_endlesssword\\endlesssword\\assets\\superscience\\physicstracker\\examplescripts\\drawphysicsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5EF882A8-545C-6545-F714-6386BC9D2A96}|Assembly-CSharp.csproj|c:\\users\\pisioj\\documents\\github\\vr_endlesssword\\endlesssword\\assets\\scripts\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EF882A8-545C-6545-F714-6386BC9D2A96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF882A8-545C-6545-F714-6386BC9D2A96}|Assembly-CSharp.csproj|C:\\Users\\pisioj\\Documents\\GitHub\\VR_EndlessSword\\EndlessSword\\assets\\superscience\\physicstracker\\physicstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EF882A8-545C-6545-F714-6386BC9D2A96}|Assembly-CSharp.csproj|solutionrelative:assets\\superscience\\physicstracker\\physicstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF882A8-545C-6545-F714-6386BC9D2A96}|Assembly-CSharp.csproj|C:\\Users\\pisioj\\Documents\\GitHub\\VR_EndlessSword\\EndlessSword\\assets\\superscience\\physicstracker\\examplescripts\\drawphysicsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EF882A8-545C-6545-F714-6386BC9D2A96}|Assembly-CSharp.csproj|solutionrelative:assets\\superscience\\physicstracker\\examplescripts\\drawphysicsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EF882A8-545C-6545-F714-6386BC9D2A96}|Assembly-CSharp.csproj|c:\\users\\pisioj\\documents\\github\\vr_endlesssword\\endlesssword\\assets\\superscience\\physicstracker\\physicstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EF882A8-545C-6545-F714-6386BC9D2A96}|Assembly-CSharp.csproj|solutionrelative:assets\\superscience\\physicstracker\\physicstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EF882A8-545C-6545-F714-6386BC9D2A96}|Assembly-CSharp.csproj|c:\\users\\pisioj\\documents\\github\\vr_endlesssword\\endlesssword\\assets\\scripts\\playersword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EF882A8-545C-6545-F714-6386BC9D2A96}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playersword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +26,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerSword.cs",
+              "DocumentMoniker": "C:\\Users\\pisioj\\Documents\\GitHub\\VR_EndlessSword\\EndlessSword\\Assets\\Scripts\\PlayerSword.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSword.cs",
+              "ToolTip": "C:\\Users\\pisioj\\Documents\\GitHub\\VR_EndlessSword\\EndlessSword\\Assets\\Scripts\\PlayerSword.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerSword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T23:26:24.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Sword.cs",
+              "DocumentMoniker": "C:\\Users\\pisioj\\Documents\\GitHub\\VR_EndlessSword\\EndlessSword\\Assets\\Scripts\\Sword.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Sword.cs",
+              "ToolTip": "C:\\Users\\pisioj\\Documents\\GitHub\\VR_EndlessSword\\EndlessSword\\Assets\\Scripts\\Sword.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Sword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T23:25:14.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DrawPhysicsData.cs",
               "DocumentMoniker": "C:\\Users\\pisioj\\Documents\\GitHub\\VR_EndlessSword\\EndlessSword\\Assets\\SuperScience\\PhysicsTracker\\ExampleScripts\\DrawPhysicsData.cs",
               "RelativeDocumentMoniker": "Assets\\SuperScience\\PhysicsTracker\\ExampleScripts\\DrawPhysicsData.cs",
               "ToolTip": "C:\\Users\\pisioj\\Documents\\GitHub\\VR_EndlessSword\\EndlessSword\\Assets\\SuperScience\\PhysicsTracker\\ExampleScripts\\DrawPhysicsData.cs",
               "RelativeToolTip": "Assets\\SuperScience\\PhysicsTracker\\ExampleScripts\\DrawPhysicsData.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-01T00:06:52.337Z",
               "EditorCaption": ""
@@ -41,7 +75,7 @@
               "RelativeDocumentMoniker": "Assets\\SuperScience\\PhysicsTracker\\PhysicsTracker.cs",
               "ToolTip": "C:\\Users\\pisioj\\Documents\\GitHub\\VR_EndlessSword\\EndlessSword\\Assets\\SuperScience\\PhysicsTracker\\PhysicsTracker.cs",
               "RelativeToolTip": "Assets\\SuperScience\\PhysicsTracker\\PhysicsTracker.cs",
-              "ViewState": "AgIAAN8AAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAArwGoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T23:54:53.368Z",
               "EditorCaption": ""
