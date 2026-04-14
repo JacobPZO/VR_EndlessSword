@@ -9,16 +9,19 @@ public class PlayerShield : MonoBehaviour
 
     [SerializeField] private BlockUI blockUI;
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent<EnemySword>(out EnemySword externalEnemySword))
+        {
+            currentBlock -= externalEnemySword.blockDamage;
+            blockUI.UpdateBlockUI(currentBlock);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         currentBlock  = maxBlock;
         blockUI.UpdateBlockUI(currentBlock);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
