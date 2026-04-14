@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SuperScience\Stabilizr\Stabilizr.cs" />
+    <Compile Include="Assets\Scripts\PlayerShield.cs" />
     <Compile Include="Assets\Scripts\PlayerSword.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\SuperScience\GizmoModule\GizmoModule.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Assets\Scripts\Sword.cs" />
     <Compile Include="Assets\SuperScience\GizmoModule\Sample\SampleGizmos.cs" />
     <Compile Include="Assets\SuperScience\PhysicsTracker\ExampleScripts\DrawPhysicsData.cs" />
+    <Compile Include="Assets\Scripts\BlockUI.cs" />
     <Compile Include="Assets\SuperScience\PhysicsTracker\PhysicsTracker.cs" />
   </ItemGroup>
   <ItemGroup>
