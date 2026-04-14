@@ -259,6 +259,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+--- !u!20 &215529980 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 9014170783809206330, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+  m_PrefabInstance: {fileID: 185175317}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &453093613 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2a063a7f9ae489f4d96546e3c9d74ed5, type: 3}
@@ -945,7 +950,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 7.5}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1235940145
@@ -960,6 +965,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bccb0d0ee8a698c44a9cb70a2d38e85a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slider: {fileID: 1235940146}
+  theCamera: {fileID: 215529980}
+  target: {fileID: 1896589953}
+  offset: {x: 0, y: 2.2, z: 0}
 --- !u!114 &1235940146
 MonoBehaviour:
   m_ObjectHideFlags: 0
