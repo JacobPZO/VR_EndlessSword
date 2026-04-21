@@ -2,31 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public float currentHealth;
     public float maxHealth;
-    [SerializeField] HealthBar enemyHealthBar;
+    [SerializeField] HealthBar playerHealthBar;
     [SerializeField] Collider collision;
 
     // Start is called before the first frame update
     void Start()
     {
-        enemyHealthBar.UpdateHealthBar(currentHealth, maxHealth);
+        playerHealthBar.UpdateHealthBar(currentHealth, maxHealth);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent<PlayerSword>(out PlayerSword externalPlayerSword))
+        if (other.TryGetComponent<EnemySword>(out EnemySword externalEnemySword))
         {
-            currentHealth -= externalPlayerSword.damageNumber;
-            enemyHealthBar.UpdateHealthBar(currentHealth, maxHealth);
+            currentHealth -= externalEnemySword.damageNumber;
+            playerHealthBar.UpdateHealthBar(currentHealth, maxHealth);
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

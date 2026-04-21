@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class PlayerSword : Sword
 {
+    public float damageNumber;
     public Collision Collision;
 }

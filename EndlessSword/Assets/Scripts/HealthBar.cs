@@ -9,6 +9,7 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private Camera theCamera;
     [SerializeField] private Transform target;
     [SerializeField] private Vector3 offset;
+    [SerializeField] private bool lockToCamera;
 
     public void UpdateHealthBar(float currentValue, float maxValue)
     {
@@ -18,7 +19,10 @@ public class HealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.rotation = theCamera.transform.rotation;
-        transform.position = target.position + offset;
+        if (lockToCamera == true)
+        {
+            transform.rotation = theCamera.transform.rotation;
+            transform.position = target.position + offset;
+        }
     }
 }

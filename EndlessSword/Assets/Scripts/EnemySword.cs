@@ -6,4 +6,5 @@ public class EnemySword : Sword
 {
     public Collision Collision;
     public int blockDamage;
+    public int damageNumber;
 }
