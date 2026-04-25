@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public float currentHealth;
     public float maxHealth;
+    public SceneChanger sceneChanger;
     [SerializeField] HealthBar enemyHealthBar;
     [SerializeField] Collider collision;
 
@@ -24,9 +25,17 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    void Die()
     {
-        
+        sceneChanger.LevelTwo();
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        if(currentHealth <= 0)
+        {
+            Die();
+        }
     }
 }
